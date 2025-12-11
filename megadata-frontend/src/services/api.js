@@ -2,5 +2,5 @@ import axios from "axios";
 
 
 export const api = axios.create({
-baseURL: "http://localhost:8080/api/users", // Backend Java
+baseURL: "https://megadata-user.onrender.com/api/users", // Backend Java
 });
